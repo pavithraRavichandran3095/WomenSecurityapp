@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/Online"
+        android:title="Online Emergency Contact List    " />
+    <item android:id="@+id/offline"
+        android:title="Offline Emergency Contact List   " />
+    <item android:id="@+id/preferences"
+        android:title="Preferences"/>
+
+</menu>

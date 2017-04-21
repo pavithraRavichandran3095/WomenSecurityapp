@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_phone_nodata_entry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rajezx.wosecalert.Activities.PhoneNODataEntry">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/header"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#34495e"
+        android:background="#2ecc71"
+        android:text="Emergency Contact List\n(offline)"/>
+    <ScrollView
+        android:layout_below="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/man1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/man1name"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="none"
+                    android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/man1number"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/man3"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/man2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/man3name"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="none"
+                    android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/man3number"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/man4"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/man3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/man4name"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="none"
+                    android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/man4number"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/man5"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/man4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/man5name"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="none"
+                    android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/man5number"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/man2"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/man1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/man2name"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:text="none"
+                    android:textSize="15sp"/>
+
+                <EditText
+                    android:id="@+id/man2number"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_marginTop="50dp"
+                android:id="@+id/save"
+                android:layout_below="@+id/man5"
+                android:text="save"
+                android:textSize="30sp"
+                android:padding="20dp"
+                android:background="#ff7b00"
+                android:textColor="#ffffff"
+                android:onClick="save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
